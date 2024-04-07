@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Profile Image -->
+    <ImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dreams"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ và tên:"
+        android:textSize="20sp"
+        android:layout_below="@id/profileImageView"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/emailValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nguyenvana@gmail.com"
+        android:textSize="16sp"
+        android:layout_below="@id/nameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Introduction -->
+    <TextView
+        android:id="@+id/introductionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới thiệu:"
+        android:textSize="20sp"
+        android:layout_below="@id/emailValueTextView"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/introductionValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tôi là một lập trình viên Android có kinh nghiệm..."
+        android:textSize="16sp"
+        android:layout_below="@id/introductionTextView"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Subject -->
+    <TextView
+        android:id="@+id/subjectTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chủ đề:"
+        android:textSize="20sp"
+        android:layout_below="@id/introductionValueTextView"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/subjectValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lập trình di động, Phát triển ứng dụng di động, ..."
+        android:textSize="16sp"
+        android:layout_below="@id/subjectTextView"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Learning -->
+    <TextView
+        android:id="@+id/learningTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Học vấn:"
+        android:textSize="20sp"
+        android:layout_below="@id/subjectValueTextView"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/learningValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bách Khoa Hà Nội, Khoa Công nghệ Thông tin, ..."
+        android:textSize="16sp"
+        android:layout_below="@id/learningTextView"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
