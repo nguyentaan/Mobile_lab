@@ -56,7 +56,6 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     } catch (e) {
       print('Error fetching news: $e');
-      // Handle error, e.g., display a message to the user
     }
   }
 
