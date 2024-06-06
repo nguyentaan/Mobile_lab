@@ -1,0 +1,6 @@
+com.example.opencv_app.test.app-core-1.5.0-0 /Users/mac/.gradle/caches/transforms-3/51ed653df3cbde9a5a5069d6c8eca3e4/transformed/core-1.5.0/res
+com.example.opencv_app.test.app-annotation-experimental-1.4.0-1 /Users/mac/.gradle/caches/transforms-3/89fcd129e70cf6b6d6766fe02ec3b631/transformed/annotation-experimental-1.4.0/res
+com.example.opencv_app.test.app-androidTest-2 /Users/mac/AndroidStudioProjects/LAB06/OpenCV-App/app/build/generated/res/resValues/androidTest/debug
+com.example.opencv_app.test.app-mergeDebugAndroidTestResources-3 /Users/mac/AndroidStudioProjects/LAB06/OpenCV-App/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.opencv_app.test.app-mergeDebugAndroidTestResources-4 /Users/mac/AndroidStudioProjects/LAB06/OpenCV-App/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.opencv_app.test.app-debugAndroidTest-5 /Users/mac/AndroidStudioProjects/LAB06/OpenCV-App/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

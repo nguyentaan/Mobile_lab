@@ -1,0 +1,17 @@
+{
+  "installationFolder": "D:\\HK2_2024\\mobile\\Mobile_lab\\Lab06\\OpenCV-App\\sdk\\build\\intermediates\\prefab_package\\debug\\prefab",
+  "gradlePath": ":sdk",
+  "packageInfo": {
+    "packageName": "sdk",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "opencv_jni_shared",
+        "moduleHeaders": "D:\\HK2_2024\\mobile\\Mobile_lab\\Lab06\\OpenCV-App\\sdk\\native\\jni\\include",
+        "moduleExportLibraries": [],
+        "abis": []
+      }
+    ]
+  }
+}

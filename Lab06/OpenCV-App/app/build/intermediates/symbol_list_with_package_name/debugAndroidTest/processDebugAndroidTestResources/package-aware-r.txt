@@ -1,0 +1,3 @@
+com.example.opencv_app.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
